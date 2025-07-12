@@ -2,7 +2,7 @@
 # DropBoxApp
 
 A simplified Dropbox-like web application that allows users to upload, list, and download files seamlessly.  
-This project is built using **Spring Boot** on the backend and **React** on the frontend.
+This project is built using Spring Boot on the backend and React on the frontend.
 
 ---
 
@@ -18,15 +18,15 @@ This project is built using **Spring Boot** on the backend and **React** on the 
 
 ##  Tech Stack
 
-- **Backend:** Java, Spring Boot, Spring Data JPA
-- **Frontend:** React.js
-- **Database:** h2
-- **Storage:** Local or cloud storage (can be extended)
-- **Build Tools:** Maven
+- Backend: Java, Spring Boot, Spring Data JPA
+- Frontend: React.js
+- Database: h2
+- Storage: Local or cloud storage (can be extended)
+- Build Tools: Maven
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### Backend (Spring Boot)
 
@@ -34,45 +34,26 @@ This project is built using **Spring Boot** on the backend and **React** on the 
 
 ```bash
 git clone https://github.com/kev-678/DropBoxApp.git
-cd DropBoxApp
 ````
 
 2️⃣ Navigate to backend module:
-
-```bash
-cd typeface-dropbox-parent
-```
-
 3️⃣ Configure `application.properties` (database URL, credentials, storage path, etc.).
-
 4️⃣ Build and run:
 
-```bash
+
 mvn clean install
 mvn spring-boot:run
-```
+
 
 ---
 
 ### Frontend (React)
 
 1️⃣ Navigate to frontend directory (if separate):
-
-```bash
-cd frontend
-```
-
 2️⃣ Install dependencies:
-
-```bash
 npm install
-```
-
 3️⃣ Run:
-
-```bash
 npm start
-```
 
 ---
 
